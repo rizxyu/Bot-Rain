@@ -2,17 +2,17 @@
 
 ![26++ Anime Rain Wallpaper 4k](https://user-images.githubusercontent.com/88314302/131470544-d1ae64d2-b0e3-40cb-a0ea-7a26a073b5d1.jpeg)
 
-<a href="https://github.com/Rizxyu/Rain-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rizxyu/Rain-bot?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Rizxyu/Rain-bot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Rizxyu/Rain-bot?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Rizxyu/Rain-bot?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/issues"><img title="Issues" src="https://img.shields.io/github/issues/Rizxyu/Rain-bot?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Rizxyu/Rain-bot?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Rain-bot?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Rizxyu/Rain-bot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Rain-bot?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rizxyu/Bot-Rain?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Rizxyu/Bot-Rain?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Rizxyu/Bot-Rain?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Rizxyu/Bot-Rain?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/issues"><img title="Issues" src="https://img.shields.io/github/issues/Rizxyu/Bot-Rain?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Rizxyu/Bot-Rain?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Bot-Rain?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Bot-Rain/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Bot-Rain?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group Bot
-[![Group Bot](https://img.shields.io/badge/Group%20-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
+[![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
 
 ### FOR TERMUX USER
 ```bash
