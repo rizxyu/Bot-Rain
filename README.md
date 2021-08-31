@@ -11,7 +11,7 @@
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Bot-Rain?label=PullRequest&color=success&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Bot-Rain?label=PullRequest&color=red&style=flat-square"></a>
 ## my bot
-[![Bot Whatsapp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/62823283033321)
+[` Bot `](https://wa.me/62823283033321)
 
 ## Join Group Bot
 [![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
