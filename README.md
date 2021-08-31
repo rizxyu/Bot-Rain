@@ -14,7 +14,10 @@
 [` Bot `](https://wa.me/62823283033321)
 
 ## Join Group Bot
-[![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
+[![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CkNED9yeZf82XnVMzRMVRU)
+
+## NOTE
+> This script will update every day if I'm not busy
 
 ### FOR TERMUX USER
 ```bash
