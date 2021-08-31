@@ -57,6 +57,6 @@
 ---------
 
 <a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
-----|----|----
-[XTEAM](https://api.xteam.xyz/) | [Rizxyu](https://github.com/Rizxyu)
+----|----|
+[XTEAM](https://api.xteam.xyz/)
 Powered by XTEAM | Best Master
