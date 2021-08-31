@@ -21,8 +21,8 @@
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/BochilGaming/games-wabot
-> cd games-wabot
+> git clone https://github.com/Rizxyu/Bot-Rain
+> cd Bot-Rain
 > npm install
 ```
 ###### Run
@@ -38,7 +38,7 @@
 * Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
 ```bash
-> git clone https://github.com/BochilGaming/games-wabot
+> git clone https://github.com/Rizxyu/Bot-Rain
 > cd games-wabot
 > npm install
 ```
@@ -50,6 +50,5 @@
 
 ### Thanks To 
 [`@Nurutomo`](https://github.com/Nurutomo)
-[`@BochilGaming`](https://github.com/BochilGaming)
-# game-bot-whatsapp
+[`@Rizxyu`](https://github.com/Rizxyu)
 # Rain-Bot
