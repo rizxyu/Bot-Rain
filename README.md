@@ -10,6 +10,7 @@
 <a href="https://github.com/Rizxyu/Bot-Rain/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Rizxyu/Bot-Rain?label=Issues&color=red&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Bot-Rain?label=PullRequest&color=success&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Bot-Rain?label=PullRequest&color=red&style=flat-square"></a>
+<p align="center"> <a href="Rizxyu"><img width="170px" height="24" src="https://komarev.com/ghpvc/?repository=Rain-Bot&label=Repo%20VISITORS&color=green&style=flat-square" alt="Rizxyu" /></a> </p><br> 
 
 ## Join Group Bot
 [![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
