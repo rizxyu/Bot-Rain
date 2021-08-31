@@ -1,4 +1,7 @@
 # RAIN BOT WHATSAPP
+
+![26++ Anime Rain Wallpaper 4k](https://user-images.githubusercontent.com/88314302/131470544-d1ae64d2-b0e3-40cb-a0ea-7a26a073b5d1.jpeg)
+
 <a href="https://github.com/Rizxyu/Rain-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rizxyu/Rain-bot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Rain-bot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Rizxyu/Rain-bot?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Rain-bot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Rizxyu/Rain-bot?label=Stars&color=yellow&style=flat-square"></a>
