@@ -1,15 +1,16 @@
-# Games-Wabot
-<a href="https://github.com/BochilGaming/games-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/BochilGaming/games-wabot?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/BochilGaming/games-wabot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/BochilGaming/games-wabot?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/BochilGaming/games-wabot?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/issues"><img title="Issues" src="https://img.shields.io/github/issues/BochilGaming/games-wabot?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/BochilGaming/games-wabot?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/BochilGaming/games-wabot?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/BochilGaming/games-wabot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/BochilGaming/games-wabot?label=PullRequest&color=red&style=flat-square"></a>
+# RAIN BOT WHATSAPP
+<a href="https://github.com/Rizxyu/Rain-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Rizxyu/Rain-bot?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Rizxyu/Rain-bot?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Rizxyu/Rain-bot?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Rizxyu/Rain-bot?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/issues"><img title="Issues" src="https://img.shields.io/github/issues/Rizxyu/Rain-bot?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Rizxyu/Rain-bot?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Rain-bot?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Rizxyu/Rain-bot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Rain-bot?label=PullRequest&color=red&style=flat-square"></a>
 
 ## Join Group Bot
-[`Group Whatsapp`](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
+[![Group Bot](https://img.shields.io/badge/Group%20-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM)
+
 ### FOR TERMUX USER
 ```bash
 > pkg update && pkg upgrade
@@ -48,3 +49,4 @@
 [`@Nurutomo`](https://github.com/Nurutomo)
 [`@BochilGaming`](https://github.com/BochilGaming)
 # game-bot-whatsapp
+# Rain-Bot
