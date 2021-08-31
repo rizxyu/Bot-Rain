@@ -31,7 +31,6 @@
 ```bash
 > node index
 ```
-
 ---------
 
 ### FOR WINDOWS/VPS/RDP USER
@@ -54,3 +53,10 @@
 [`@Nurutomo`](https://github.com/Nurutomo)
 [`@Rizxyu`](https://github.com/Rizxyu)
 # Rain-Bot
+
+---------
+
+<a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a> | [![Rizxyu](https://github.com/Rizxyu.png?size=100)](https://github.com/Rizxyu)
+----|----|----
+[XTEAM](https://api.xteam.xyz/) | [Rizxyu](https://github.com/Rizxyu)
+Powered by XTEAM | Best Master
