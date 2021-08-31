@@ -29,7 +29,7 @@
 ```
 ###### Run
 ```bash
-> node . [<session name>] (session name is optional)
+> node index
 ```
 
 ---------
