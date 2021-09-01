@@ -72,7 +72,9 @@ handler.tags = ['rpg']
 module.exports = handler
 
 handler.command = /^kingdom$/i
-
+//G USAH NYOLONG ANJG
+//NGAKU NGAKU BUATAN SENDIRI TCH
+//PDHL CUMAN REKODING
 
 
 
