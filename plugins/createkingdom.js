@@ -1,4 +1,8 @@
-
+//TEAM
+//FAUZAN
+//RIZKY
+//DENTA
+//Restu?
 
 let handler = async(m, {conn, command, usedPrefix, text}) => {
 
