@@ -3,6 +3,7 @@
 //RIZKY
 //DENTA
 //Restu?
+///You can change this language from Indonesian to English
 
 let handler = async(m, {conn, command, usedPrefix, text}) => {
 
@@ -47,17 +48,17 @@ conn.reply(m.chat, `
 
 🏰YOUR KINGDOM CREATED!!
 
-🏰Name Kerajaan: ${kingdomName}
+🏰Name Kingdom: ${kingdomName}
 👑Name King: ${namk}
-👥populasi: ${global.DATABASE.data.users[m.sender].population}
+👥population: ${global.DATABASE.data.users[m.sender].population}
 👮army: ${global.DATABASE.data.users[m.sender].troops}
 🎋Level: ${global.DATABASE.data.users[m.sender].lvl}
 💰Koin: ${global.DATABASE.data.users[m.sender].koin} *[ BERGUNA UNTUK UP LEVEL KERAJAAN ]*
 
-🏳️User Yg diajak aliansi
+🏳️User Aliance
 ${aliance}
 
-Cek Kerajaaan mu!
+Check your kingdom!
 ${usedPrefix}Mykingdom
 `, m, false, {
     contextInfo: {
@@ -66,17 +67,12 @@ ${usedPrefix}Mykingdom
   })
 }
 
-handler.help = ['kerajaan nama|namakerajaan']
+handler.help = ['kingdom name|name kingdom|@tag']
 handler.tags = ['rpg']
 
 module.exports = handler
 
 handler.command = /^kingdom$/i
-//G USAH NYOLONG ANJG
-//NGAKU NGAKU BUATAN SENDIRI TCH
-//PDHL CUMAN REKODING
-
-
 
 
 
