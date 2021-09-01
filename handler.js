@@ -11,6 +11,8 @@ module.exports = {
     if (!chatUpdate.hasNewMessage) return
     if (!chatUpdate.messages && !chatUpdate.count) return
     let m = chatUpdate.messages.all()[0]
+//MAKSUD AMAT NYOLONG BASE ORANG
+//UDAH GITU NGAKU NGAKU BIKINAN SENDIRI LAGI,HADEH
     try {
       simple.smsg(this, m)
       switch (m.mtype) {
@@ -34,6 +36,10 @@ module.exports = {
             if (!isNumber(user.limit)) user.limit = 10
             if (!isNumber(user.lastclaim)) user.lastclaim = 0
             if (!isNumber(user.money)) user.money = 0
+            
+            if (!isNumber(user.rumahsakit)) user.rumahsakit= 0
+            if (!isNumber(user.fortress)) user.fortress = 0
+            if (!isNumber(user.troopcamp)) user.troopcamp = 0
             //
             if (!isNumber(user.diamond)) user.diamond = 0
             if (!isNumber(user.iron)) user.iron = 0
@@ -128,14 +134,18 @@ if (!isNumber(user.lele)) user.lele = 0
 
             if (!isNumber(user.kayu)) user.kayu = 0
             if (!isNumber(user.batu)) user.batu = 0
-            if (!isNumber(user.string)) user.string = 0
+            if (!isNumber(user.besi)) user.besi = 0
+            if (!isNumber(user.emas)) user.emas = 0
+            
             if (!isNumber(user.sword)) user.sword = 0
             if (!isNumber(user.sworddurability)) user.sworddurability = 0
             if (!isNumber(user.pickaxe)) user.pickaxe = 0
             if (!isNumber(user.pickaxedurability)) user.pickaxedurability = 0
             if (!isNumber(user.fishingrod)) user.fishingrod = 0
             if (!isNumber(user.fishingroddurability)) user.fishingroddurability = 0
-
+           //KERAJAAN
+           //
+            
             if (!isNumber(user.lastadventure)) user.lastadventure = 0
             if (!isNumber(user.lastfishing)) user.lastfishing = 0
             if (!isNumber(user.lastdungeon)) user.lastdungeon = 0
@@ -144,6 +154,7 @@ if (!isNumber(user.lele)) user.lele = 0
             if (!isNumber(user.lasthunt)) user.lasthunt = 0
             if (!isNumber(user.lastweekly)) user.lastweekly = 0
             if (!isNumber(user.lastmonthly)) user.lastmontly = 0
+            /////if (!('kingdom' in user)) user.kingdom = false
             if (!('registered' in user)) user.registered = false
             if (!user.registered) {
                 if (!('name' in user)) user.name = this.getName(m.sender)
@@ -156,6 +167,11 @@ if (!isNumber(user.lele)) user.lele = 0
             healt: 100,
             stamina: 100,
             level: 0,
+            //
+            rumahsakit: 0,
+            troopcamp: 0,
+            fortress: 0,
+            //
             exp: 0,
             limit: 10,
             lastclaim: 0,
@@ -239,9 +255,12 @@ if (!isNumber(user.lele)) user.lele = 0
             makananpet: 0,
             antispam: 0,
             antispamlastclaim: 0,
+            //SDA
             kayu: 0,
             batu: 0,
-            string: 0,
+            besi: 0,
+            emas: 0,
+            //
             sword: 0,
             sworddurability: 0,
             pickaxe: 0,
