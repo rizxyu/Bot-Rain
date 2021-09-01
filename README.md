@@ -21,6 +21,7 @@
 
 ## NOTE
 > This script will update every day if I'm not busy
+> if you find a bug [` contact me `](https://wa.me/6282328303332)
 
 ### FOR TERMUX USER
 ```bash
