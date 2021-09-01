@@ -10,6 +10,9 @@
 <a href="https://github.com/Rizxyu/Bot-Rain/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Rizxyu/Bot-Rain?label=Issues&color=red&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Rizxyu/Bot-Rain?label=PullRequest&color=success&style=flat-square"></a>
 <a href="https://github.com/Rizxyu/Bot-Rain/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Rizxyu/Bot-Rain?label=PullRequest&color=red&style=flat-square"></a>
+## Deploy 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rizxyu/Bot-Rain)
+
 ## my bot
 [` Bot `](https://wa.me/62823283033321)
 
