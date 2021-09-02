@@ -15,4 +15,6 @@ handler.tags = ['tools']
 
 handler.command = /^carigrup/i
 
+handler.limit = true
+
 module.exports = handler
