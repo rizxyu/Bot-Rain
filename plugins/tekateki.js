@@ -18,7 +18,7 @@ ${json.soal}
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik *${usedPrefix}teki* untuk bantuan
-Bonus: Rp${poin}
+Bonus: ${poin} XP
 `.trim()
   conn.tekateki[id] = [
       await conn.reply(m.chat, caption, m),
