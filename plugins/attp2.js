@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
     res = await url.json()
     stick = res.image
     let stiker = await sticker(null, stick, global.packname, global.author)
-    m.reply(`lagi dikirim!\n*jangan lupa donasi Ya,Agar botnya online terus*`)
+    m.reply(`Await....`)
     conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
@@ -22,6 +22,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['attp2 <teks>']
 handler.tags = ['sticker']
 handler.command = /^(attp2)$/i
+
 handler.limit = true
-//Made By Anshul
+
 module.exports = handler
