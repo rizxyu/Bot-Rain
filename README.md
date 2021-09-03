@@ -20,9 +20,12 @@
 [![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CkNED9yeZf82XnVMzRMVRU)
 
 ## NOTE
+```bash
 > This script will update every day if I'm not busy
-> if you find a bug [` contact me `](https://wa.me/6282328303332)
-
+```
+## If You find Bug you can Contact me📞
+[` Contact Me `](https://wa.me/6282328303332)
+#
 ### FOR TERMUX USER
 ```bash
 > pkg update && pkg upgrade
@@ -33,6 +36,9 @@
 > git clone https://github.com/Rizxyu/Bot-Rain
 > cd Bot-Rain
 > npm install
+> npm i moment-timezone
+> npm i image-to-base64
+> npm i imgbb-uploader
 ```
 ###### Run
 ```bash
