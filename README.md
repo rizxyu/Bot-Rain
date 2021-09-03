@@ -13,9 +13,6 @@
 ## Deploy 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rizxyu/Bot-Rain)
 
-## my bot
-[` Bot `](https://wa.me/62823283033321)
-
 ## Join Group Bot
 [![Group Bot](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/CkNED9yeZf82XnVMzRMVRU)
 
