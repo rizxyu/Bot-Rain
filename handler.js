@@ -11,8 +11,6 @@ module.exports = {
     if (!chatUpdate.hasNewMessage) return
     if (!chatUpdate.messages && !chatUpdate.count) return
     let m = chatUpdate.messages.all()[0]
-//MAKSUD AMAT NYOLONG BASE ORANG
-//UDAH GITU NGAKU NGAKU BIKINAN SENDIRI LAGI,HADEH
     try {
       simple.smsg(this, m)
       switch (m.mtype) {
@@ -40,6 +38,10 @@ module.exports = {
             if (!isNumber(user.rumahsakit)) user.rumahsakit= 0
             if (!isNumber(user.fortress)) user.fortress = 0
             if (!isNumber(user.troopcamp)) user.troopcamp = 0
+            if (!isNumber(user.shield)) user.shield = false
+            if (!isNumber(user.pertanian)) user.pertanian = 0
+            if (!isNumber(user.tambang)) user.tambang = 0
+            
             //
             if (!isNumber(user.diamond)) user.diamond = 0
             if (!isNumber(user.iron)) user.iron = 0
@@ -94,8 +96,8 @@ module.exports = {
             if (!isNumber(user.lastjb)) user.lastjb = 0
             
             if (!isNumber(user.nila)) user.nila = 0
-if (!isNumber(user.bawal)) user.bawal = 0
-if (!isNumber(user.lele)) user.lele = 0
+            if (!isNumber(user.bawal)) user.bawal = 0
+            if (!isNumber(user.lele)) user.lele = 0
             if (!isNumber(user.paus)) user.paus = 0
      if (!isNumber(user.kepiting)) user.kepiting = 0
      if (!isNumber(user.gurita)) user.gurita = 0
@@ -136,6 +138,7 @@ if (!isNumber(user.lele)) user.lele = 0
             if (!isNumber(user.batu)) user.batu = 0
             if (!isNumber(user.besi)) user.besi = 0
             if (!isNumber(user.emas)) user.emas = 0
+            if (!isNumber(user.makanan)) user.makanan = 0
             
             if (!isNumber(user.sword)) user.sword = 0
             if (!isNumber(user.sworddurability)) user.sworddurability = 0
@@ -149,6 +152,10 @@ if (!isNumber(user.lele)) user.lele = 0
             if (!isNumber(user.lastadventure)) user.lastadventure = 0
             if (!isNumber(user.lastfishing)) user.lastfishing = 0
             if (!isNumber(user.lastdungeon)) user.lastdungeon = 0
+            
+            if (!isNumber(user.lastsda)) user.lastsda = 0
+            if (!isNumber(user.lastsda)) user.lastwar = 0
+            
             if (!isNumber(user.lastduel)) user.lastduel = 0
             if (!isNumber(user.lastmining)) user.lastmining = 0
             if (!isNumber(user.lasthunt)) user.lasthunt = 0
@@ -171,6 +178,8 @@ if (!isNumber(user.lele)) user.lele = 0
             rumahsakit: 0,
             troopcamp: 0,
             fortress: 0,
+            makanan: 0,
+            shield: false,
             //
             exp: 0,
             limit: 10,
@@ -260,6 +269,7 @@ if (!isNumber(user.lele)) user.lele = 0
             batu: 0,
             besi: 0,
             emas: 0,
+            makanan: 0,
             //
             sword: 0,
             sworddurability: 0,
@@ -270,6 +280,8 @@ if (!isNumber(user.lele)) user.lele = 0
             lastadventure: 0,
             lastfishing: 0,
             lastdungeon: 0,
+            lastsda: 0,
+            lastwar: 0,
             lastduel: 0,
             lastmining: 0,
             lasthunt: 0,
@@ -297,6 +309,7 @@ if (!isNumber(user.lele)) user.lele = 0
           if (!('delete' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
           if (!'antiToxic' in chat) chat.antiToxic = false
+          if (!'antiJawa' in chat) chat.antiJawa = false
         } else global.DATABASE._data.chats[m.chat] = {
           isBanned: false,
           welcome: false,
@@ -308,6 +321,7 @@ if (!isNumber(user.lele)) user.lele = 0
           delete: false,
           antiLink: false,
           antiToxic: false,
+          antiJawa: false,
         }
       } catch (e) {
         console.error(e)
@@ -562,7 +576,7 @@ if (!isNumber(user.lele)) user.lele = 0
             } catch (e) {
             } finally {
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
-                (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
+                   (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
               this.sendButtonImg(jid, text, pp, `notify`, `👋`,`bye`, null, false, {
                 contextInfo: {
                   mentionedJid: [user]
