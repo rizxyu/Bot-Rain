@@ -1,12 +1,19 @@
 //
 //Lower case
 global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/FrluVyY5kBRIhY6yKfH4DI']
+global.linkGC = ['']//TARUH DISINI LINK GRUP MU
+
 global.owner = ['6282328303332','6285729191215'] // Owner
 global.mods = ['6283190403329'] // moderator
 global.prems = ['6282328303332','6285876347141','6283190403329','62895801224266','6281273157920']  //premium
-global.wait = '❗ Wait'
+global.wait = '[ ❗ ] Wait'
+global.eror = '[ ❗ ] EROR FEATURE'
+global.apiloss = '[ ❗ ] APIKEY HABIS HUBUNGI OWNER UNTUK MENAMBAH LIMIT APIKEY'
 
+//Simpel Api
+global.apiLol = 'PutYourApikeyHere'//TARUH APIKEY//PUT YOUR APIKEY HERE
+global.webLol = 'https://api.lolhuman.xyz/api/'
+//
 
 global.APIs = { // API Prefix
   // name: 'https://website'
