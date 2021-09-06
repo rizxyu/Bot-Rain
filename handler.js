@@ -600,7 +600,7 @@ module.exports = {
     }
   },
   async delete(m) {
-    if (m.key.remoteJid == 'status@broadcast') return
+   //if (m.key.remoteJid == 'status@broadcast') return
     if (m.key.fromMe) return
     let chat = global.DATABASE._data.chats[m.key.remoteJid]
     if (chat.delete) return
@@ -627,8 +627,8 @@ Untuk mematikan fitur ini, ketik
                     return
                 break
         }
-        await this.sendMessage(from, 'Maaf, Tolong jangan telfon BOT!!', MessageType.extendedText)
-        //await this.blockUser(from, 'add')
+        await this.sendMessage(from, 'Maaf, Nomor mu telah di blokir\nHubungi owner untuk unblock nomer', MessageType.extendedText)
+        await this.blockUser(from, 'add')
     }
 }
 
