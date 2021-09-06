@@ -1,2 +1,3 @@
-Default: node index
-main: node . --server
+main: npm start
+main2: node index
+Default: node . --server
