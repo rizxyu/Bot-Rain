@@ -1,8 +1,13 @@
+//
+//Lower case
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Lb4Emjih98rBiCZiZoS2eM', 'https://chat.whatsapp.com/FrluVyY5kBRIhY6yKfH4DI']
 global.owner = ['6282328303332','6285729191215'] // Owner
 global.mods = ['6283190403329'] // moderator
 global.prems = ['6282328303332','6285876347141','6283190403329','62895801224266','6281273157920']  //premium
+global.wait = '❗ Wait'
+
+
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -19,7 +24,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'putyourapikey',
+  'https://api.xteam.xyz': 'putyourapikey',//MASUKKAN APIKEY
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://bsbt-api-rest.herokuapp.com': 'benniismael',
   'https://api.zeks.xyz': 'apivinz',
@@ -29,7 +34,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'i hope you\'re fine'
+global.packname = 'i hope you\'re fine'//GANTI WM MU
 global.author = '@RainBotOfficial'
 
 global.multiplier = 39 // The higher, The harder levelup
