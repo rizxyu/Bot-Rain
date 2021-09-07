@@ -35,12 +35,14 @@ ${'```%npmdesc```'}
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'rpg', 'kingdom', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'photooxy', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
     'main': 'Utama',
     'game': 'Game',
     'xp': 'Exp & Limit',
+    'rpg': 'Rpg',
+    'kingdom': 'Kingdom',
     'sticker': 'Stiker',
     'kerang': 'Kerang Ajaib',
     'quotes': 'Quotes',
@@ -52,6 +54,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     'nulis': 'MagerNulis & Logo',
     'downloader': 'Downloader',
     'tools': 'Tools',
+    'photooxy': 'Photooxy',
     'fun': 'Fun',
     'database': 'Database',
     'vote': 'Voting',
@@ -67,6 +70,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'xp') tags = {
     'xp': 'Exp & Limit'
+  }
+  if (teks == 'rpg') tags = {
+  	'rpg': 'RpG'
+  }
+  if (teks == 'kingdom') tags = {
+  	'kingdom': 'Kingdom'
   }
   if (teks == 'stiker') tags = {
     'sticker': 'Stiker'
@@ -100,6 +109,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'tools') tags = {
     'tools': 'Tools'
+  }
+  if (teks == 'photooxy') tags = {
+  	'photooxy': 'Photooxy'
   }
   if (teks == 'fun') tags = {
     'fun': 'Fun'
@@ -203,9 +215,8 @@ _👥Grup Bot :
 https://chat.whatsapp.com/CkNED9yeZf82XnVMzRMVRU
 
 
-_*⛏️Bot Update setiap hari*_
 `.trim(),
-          "description": "© stikerin X rain Xyz",
+          "description": "Rain Xyz",
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -219,12 +230,22 @@ _*⛏️Bot Update setiap hari*_
                   "title": "Game",
                   "description": "",
                   "rowId": ".? game"
-
+               }, {
+                  "title": "Rpg",
+                  "description": "",
+                  "rowId": ".? rpg"
+                  }, {
+                  "title": "Kingdom",
+                  "description": "",
+                  "rowId": ".? kingdom"
                 }, {
                   "title": "XP",
                   "description": "",
                   "rowId": ".? xp"
-
+               }, {
+                  "title": "photooxy",
+                  "description": "",
+                  "rowId": ".? photooxy"
                 }, {
                   "title": "Stiker",
                   "description": "",

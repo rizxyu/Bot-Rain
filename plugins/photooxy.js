@@ -1,89 +1,53 @@
-let fetch = require('node-fetch')
+//OOM MAU NGAPAIN OMMM
+//BAGUS APA GK NYA YA HARGAI GW LAH
+//By Rizxyu
+//> w <
+const fetch = require('node-fetch')
 
-let handler = async(m, { conn, text }) => {
-let [effect, teks] = text.split `|`
+let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
-let listeffect = `
-*List Effect Photooxy :*
 
-smoke
-wolfmetal
-underwaterocean
-typography
-neonlight
-google
-rainbowshine
-camuflage
-3dglowing
-vintage
-candy
-gradientavatar
-glowrainbow
-stars
-fur
-flaming
-crispchrome
-kueultah
-rainbowbg
-metalicglow
-striking3d
-watermelon
-underwebmatrix
-multimaterial
-harrypotter
-8bit
-kopi2
-luxuryroyal
-gerbang
-woodblock
-smoketypography
-sweetcandy
-silk
-bevel
-partyneon
-greenleaves
-modernmetal
-lolcover
-warface
-pentakill
-aov
-battlefield
-avatarlol
-pokemon
-lolavatarglitch
-shinebannerlol
-mastery7lol
-dota2avatar
-lol
-crossfire
-glowpentakill
-warfacecover
-coveroverwatch
-lolcover2
-csgo
-lolpentakill
-`.trim()
+let apikey = 'HIRO'//apakah maksud cuy
+let caption = `[ ❗ ] Sudah Jadi Nih we`
+let wait = `await`
+let { a1, a2 } = text.split`|`
 
-    if (!effect) return conn.reply(m.chat, listeffect, m)
-    if (!teks) return conn.reply(m.chat, 'Uhm... Teksnya?', m)
+if (!text) throw `Salah Seharusnya ${usedPrefix + command} tot`
 
-  await m.reply('Sedang membuat...')
- let hasil = await (await fetch('https://api.xteam.xyz/photooxy/' + effect + '?text=' + teks + '&APIKEY=APIKEYMU')).buffer()
- let caption = `*PHOTOOXY*\n\nEffect : ${effect}`
+//APIKEY WEB
+let res = `https://api.lolhuman.xyz/api/photooxy1/shadow?apikey=${apikey}&text=${text}`
+let lov = `https://api.lolhuman.xyz/api/photooxy1/love?apikey=${apikey}&text=${text}`
+let wud = `https://api.lolhuman.xyz/api/photooxy1/woodheart?apikey=${apikey}&text=${text}`
+let cu = `https://api.lolhuman.xyz/api/photooxy1/cup?apikey=${apikey}&text=${text}`
+let cu2 = `https://api.lolhuman.xyz/api/photooxy1/cup2?apikey=${apikey}&text=${text}`
+let kopi = `https://api.lolhuman.xyz/api/photooxy1/coffe?apikey=${apikey}&text=${text}`
+let smk = `https://api.lolhuman.xyz/api/photooxy1/smoke?apikey=${apikey}&text=${text}`
+let ug = `https://api.lolhuman.xyz/api/photooxy1/undergrass?apikey=${apikey}&text=${text}`
+let btlf = `https://api.lolhuman.xyz/api/photooxy2/battlefield4?apikey=${apikey}&text1=${a1}&text2=${a2}`
+let tok = `https://api.lolhuman.xyz/api/photooxy2/battlefield4?apikey=${apikey}&text1=${a1}&text2=${a2}`
+ //FUNCTION SEND FILENYA CUK
+try {
+conn.reply( m.chat, wait, m)
+      if (/shadow/.test(command)) return conn.sendFile( m.chat, res, 'p.jpg', caption, m)
+      if (/love/.test(command)) return conn.sendFile( m.chat, lov, 'p.jpg', caption, m)
+     if (/woodheart/.test(command))  return conn.sendFile( m.chat, wud, 'p.jpg', caption, m)
+     if (/cup/.test(command)) return  conn.sendFile( m.chat, cu, 'p.jpg', caption, m)
+     if (/cup2/.test(command))  return conn.sendFile( m.chat, cu2, 'p.jpg', caption, m)
+     if (/coffe/.test(command)) return conn.sendFile( m.chat, kopi, 'p.jpg', caption, m)
+     if (/smoke/.test(command)) return conn.sendFile( m.chat, smk, 'p.jpg', caption, m)
+     if (/undergrass/.test(command)) return conn.sendFile( m.chat, ug, 'p.jpg', caption, m)
+     if (/battlefield/.test(command)) return conn.sendFile( m.chat, btlf, 'p.jpg', caption, m)
+     if (/tiktok/.test(command)) return conn.sendFile( m.chat, kopi, 'p.jpg', caption, m)
 
-    conn.sendFile(m.chat, hasil, 'photooxy.jpg', caption, m)
+} catch (e) {
+   throw e
+    }
 }
-handler.help = ['photooxy <effect|teks>']
-handler.tags = ['sticker']
-handler.command = /^(photooxy)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
 
-handler.fail = null
-handler.exp = 0
-handler.limit = true
+handler.help = ['shadow','love','woodheart','cup','cup2','coffe','smoke','undergrass','battlefield','tiktok'].map(v => v + ' [teks]')
+handler.tags = ['photooxy']
+handler.command = /^(shadow|love|woodheart|cup|cup2|coffe|smoke|undergrass|battlefield|tiktok)$/i
+
+handler.limit = true //or false
 
 module.exports = handler
