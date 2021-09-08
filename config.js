@@ -15,6 +15,9 @@ global.apiLol = 'PutYourApikeyHere'//TARUH APIKEY//PUT YOUR APIKEY HERE
 global.webLol = 'https://api.lolhuman.xyz/api/'
 //
 
+//BOT WM
+global.botwm = 'RainXyz'//Change This to your name bot
+
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
