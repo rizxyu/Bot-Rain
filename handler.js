@@ -1,3 +1,6 @@
+//Males Bang
+//Udah susah susah nambahin fitur eh malah eror
+
 let util = require('util')
 let simple = require('./lib/simple')
 let { MessageType } = require('@adiwajshing/baileys')
@@ -565,19 +568,22 @@ module.exports = {
     let chat = global.DATABASE._data.chats[jid] || {}
     let text = ''
     switch (action) {
-      case 'add':
+   case 'add':
       case 'remove':
         if (chat.welcome) {
           let groupMetadata = await this.groupMetadata(jid)
           for (let user of participants) {
-            let pp = './src/avatar_contact.png'
+            let pp = 'https://i.ibb.co/fHDx30X/20210725-125918.jpg'
             try {
-              pp = await this.getProfilePicture(user)
+              pp = await uploadImage(await (await fetch(await this.getProfilePicture(user))).buffer())
             } catch (e) {
             } finally {
-              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
-                   (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
-              this.sendButtonImg(jid, text, pp, `notify`, `👋`,`bye`, null, false, {
+              text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Selamat datang, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
+                (chat.sBye || this.bye || conn.bye || 'Sampai jumpa, @user!')).replace('@user', '@' + user.split`@`[0])
+              let wel = `https://hardianto-chan.herokuapp.com/api/tools/welcomer2?name=${encodeURIComponent(this.getName(user))}&descriminator=${user.split(`@`)[0].substr(-5)}&totalmem=${encodeURIComponent(groupMetadata.participants.length)}&namegb=${encodeURIComponent(this.getName(jid))}&ppuser=${pp}&background=https://i.ibb.co/KhtRxwZ/dark.png&apikey=hardianto`
+              let lea = `https://hardianto-chan.herokuapp.com/api/tools/leave2?name=${encodeURIComponent(this.getName(user))}&descriminator=${user.split(`@`)[0].substr(-5)}&totalmem=${encodeURIComponent(groupMetadata.participants.length)}&namegb=${encodeURIComponent(this.getName(jid))}&ppuser=${pp}&background=https://i.ibb.co/KhtRxwZ/dark.png&apikey=hardianto`
+
+              this.sendFile(jid, action === 'add' ? wel : lea, 'pp.jpg', text, null, false, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
@@ -600,16 +606,18 @@ module.exports = {
     }
   },
   async delete(m) {
-   //if (m.key.remoteJid == 'status@broadcast') return
     if (m.key.fromMe) return
     let chat = global.DATABASE._data.chats[m.key.remoteJid]
     if (chat.delete) return
-    await this.reply(m.key.remoteJid, `
+    await this.send2Button(m.key.remoteJid, `
 Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
 
-Untuk mematikan fitur ini, ketik
-*.disable delete*
-`.trim(), m.message, {
+Untuk mematikan anti delete 
+Klik tombol dibawah↓
+`,`©Grup setting`, 'Enable', 
+'.enable antidelete', 
+ 'Disable', 
+ '.disable antidelete', m.message, {
       contextInfo: {
         mentionedJid: [m.participant]
       }
@@ -627,22 +635,22 @@ Untuk mematikan fitur ini, ketik
                     return
                 break
         }
-        await this.sendMessage(from, 'Maaf, Nomor mu telah di blokir\nHubungi owner untuk unblock nomer', MessageType.extendedText)
+        await this.sendMessage(from, 'Karna kamu melanggar aturan\n maka bot akan memblokirmu\nUnblock chat owner\nwa.me/6282328303332', MessageType.extendedText)
         await this.blockUser(from, 'add')
     }
 }
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-    owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
-    mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-    premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-    group: 'Perintah ini hanya dapat digunakan di grup!',
-    private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk *Admin* grup!',
-    botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-    unreg: '*EN:* Please register to use this feature by typing\n.verify\n\n*ID:* Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n*.verify*'
+    rowner: '*[❗] Creator Only*', 
+    owner: '*[❗] Owner Only*',
+    mods: '*[❗] Moderator Only*',
+    premium: '*[❗] Premium User Only*',
+    group: '*[❗] Group Only*',
+    private: '*[❗] Private Only*',
+    admin: '*[❗] Admin Group Only*',
+    botAdmin: '*[❗] Bot Admin Only*',
+    unreg: '── 「 NOT REGISTERED 」 ──\nSilakan Register Terlebih Dahulu Sebelum Menggunakan Bot. Cara Register Cukup Dengan Command *#verify*\n\nNote:\nHarap Save Serial Number Mu Agar Bisa Melakukan Unreg Database Bot'
   }[type]
   if (msg) return m.reply(msg)
 }
