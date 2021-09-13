@@ -1,3 +1,7 @@
+/*
+* RAIN XYZ X STIKERIN
+* REKODE BY RIZXYU
+*/
 let { MessageType } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let chalk = require('chalk')
@@ -71,10 +75,9 @@ My sosmed:
 🔸Facebook: ${fbe}
 🔸Github: ${gith}
 
-🎏Group Bot Whatsapp:
-https://chat.whatsapp.com/CkNED9yeZf82XnVMzRMVRU
+Note: Your Data Not Saving in database bot
 `,
-                        "description": "*Rain xyz*",
+                        "description": "*Bot By Rizxyu*",
                         "buttonText": "Click Here To List",
                         "listType": "SINGLE_SELECT",
                         "sections": [
