@@ -1,6 +1,6 @@
 {
-  "name": "games-wabot",
-  "version": "0.9.8",
+  "name": "Rain Bot",
+  "version": "7.9.8",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
@@ -23,16 +23,16 @@
     "Games-wabot",
     "wabot-aq"
   ],
-  "homepage": "https://github.com/BochilGaming/games-wabot",
+  "homepage": "https://github.com/Rizxyu/Bot-Rain",
   "author": {
-    "name": "BochilGaming"
+    "name": "Rizxyu"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nurutomo/wabot-aq.git"
   },
   "bugs": {
-    "url": "https://github.com/BochilGaming/games-wabot/issues"
+    "url": "https://github.com/Rizxyu/Bot-Rain/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
