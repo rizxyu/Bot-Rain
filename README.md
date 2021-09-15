@@ -33,9 +33,6 @@
 > git clone https://github.com/Rizxyu/Bot-Rain
 > cd Bot-Rain
 > npm install
-> npm i moment-timezone
-> npm i image-to-base64
-> npm i imgbb-uploader
 ```
 ###### Run
 ```bash
